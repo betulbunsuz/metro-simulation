@@ -22,6 +22,9 @@ Bu proje, Ankara'daki metro ağı üzerinde en az aktarmalı ve en hızlı rotay
 
 - **BFS**: En az aktarmalı rotayı bulmak için ideal bir algoritma olup, metro ağı gibi yapılar için mükemmel bir seçimdir.
 - **A***: En hızlı rotayı bulmak için A* algoritması, tahmin edilen hedef mesafesini kullanarak daha verimli bir keşif yapar ve dolayısıyla daha kısa süreli yolculukları bulmak için uygundur.
+  
+### Projenin geliştirilmesi
+Dinamik rota güncellemesi yapılabilir. Gerçek zamanlı trafik bilgisi ekleyerek, metro hattındaki aksaklıkları ve gecikmeleri dikkate alarak rotaların dinamik bir şekilde güncellenebilir.
 
 ## Örnek Kullanım ve Test Sonuçları
 
@@ -37,6 +40,3 @@ print("En az aktarmalı rota:", rota_bfs)
 # A* ile en hızlı rota
 rota_astar = metro.en_hizli_rota_bul("AŞTİ", "OSB")
 print("En hızlı rota:", rota_astar)
-
-Projenin geliştirikmesi
-Dinamik rota güncellemesi yapılabilir. Gerçek zamanlı trafik bilgisi ekleyerek, metro hattındaki aksaklıkları ve gecikmeleri dikkate alarak rotaların dinamik bir şekilde güncellenebilir.
